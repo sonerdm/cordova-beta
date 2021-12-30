@@ -8,16 +8,16 @@ This plugin enables Cordova projects to use the Insider SDK in their projects.
 
 ## Start
 
+To start, please add the following line to your config.xml file.
+
+```
+<plugin name="cordova-plugin-insider" spec="https://github.com/useinsider/cordova-plugin-insider.git"/>
+```
+
 To add the plugin to your Cordova Project, you can run this code in the project directory by referring to the code example below.
 
 ```
-cordova plugin add {your_local_plugin_path}
-```
-or
-
-Add this code to your config.xml file to pull from GitHub.
-```
-<plugin name="cordova-plugin-insider" spec="https://github.com/useinsider/cordova-plugin.git"/>
+cordova plugin add cordova-plugin-insider
 ```
 
 Add android and iOS platforms to your project.
@@ -74,7 +74,7 @@ In addition, you need to download the ```google-services.json``` file from the G
 
 To send push notifications, Insider requires 2 crucial data;
 
-- A SENDER ID (not required if you add google-services.json)
+- Add google-services.json under the android/app folder
 - A Firebase Cloud Messaging API Key
 
 ## iOS Push Notification Integration
