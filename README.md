@@ -11,7 +11,7 @@ This plugin enables Cordova projects to use the Insider SDK in their projects.
 To start, please add the following line to your config.xml file.
 
 ```
-<plugin name="cordova-plugin-insider" spec="https://github.com/useinsider/cordova-plugin-insider.git"/>
+<plugin name="cordova-plugin-insider" spec="https://github.com/useinsider/cordova-plugin-insider-beta"/>
 ```
 
 To add the plugin to your Cordova Project, you can run this code in the project directory by referring to the code example below.
